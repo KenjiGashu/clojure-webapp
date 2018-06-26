@@ -1,0 +1,9 @@
+(ns clojure-webapp.teste)
+(import java.util.Date)
+
+(new java.util.Date)
+(def data (java.util.Date. 2018 10 1))
+(.after data (java.util.Date. 2018 5 1))
+(java.util.Date. "2018")
+(java.util.Date.)
+(Date. "2018")
